@@ -1,0 +1,436 @@
+*
+{
+	margin:0;
+	padding :0;
+}
+#hid
+{
+	top:0px;
+	position:sticky;
+	z-index:10;
+}
+
+#hid1
+{
+	color:#000000;
+	}
+	
+	
+	
+#contact h2
+{
+	padding-left:500px;
+}
+/*--------n/avigation-------*/
+#nav-bar
+{	
+	position:sticky;
+	top:20px;
+	z-index:10;
+	background-color:#ffffff;
+}
+ .navbar-brand img
+ {
+	 
+	 padding-left:0px;
+ }
+
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+navbar-nav li a
+{
+	float : right;
+	text-align : left;
+}
+#nav-bar li a:hover{
+	color: #007bff;
+}
+
+.navbar-toggler
+{
+	border: none;
+}
+.nav-link
+{
+	color: #555;
+	font-weight: 60px;
+	font-size: 16px;
+
+
+}
+.dropdownMenuButton
+{
+	
+	font-weight: 60px;
+	font-size: 16px;
+}
+
+/*----------header---------*/
+.header-top
+{
+	background: linear-gradient(to right,#002E70,#4094B7);
+	position:sticky;
+	color:#ffffff;
+}
+	header
+{
+	position:sticky;
+}
+
+.info
+{
+	color:#ffffff;
+}
+
+/*---------slider-----*/
+#slider{
+	width:100%;
+}
+
+
+
+
+
+
+/*-------About us-------*/
+#about
+{	
+	
+	padding-bottom: 50px;
+	
+}
+.aboutus{
+	color:#555;
+}
+.about-content
+{
+	padding-top: 20px;
+	color:#55A;
+	font-size:20px;
+}
+/*-------testimonials------*/
+#testimonials{
+	background: #efefef;
+	
+	color: #777;
+	
+	padding-top:50px;
+	padding-bottom:50px;
+	
+}
+#testimonials .row{
+	margin-top:30px;
+}
+.col-md-4
+{
+	margin:40px auto;
+	
+	
+}
+.profile{
+padding: 80px 10px 10px;
+background-color:#fff;
+
+}
+.user{
+width: 120px;
+height: 120px;
+border-radius:50%;
+
+
+}
+.profile img{
+top: -60px;
+position:absolute;
+left: calc(50%-60px);
+border: 10px solid #fff;
+
+}
+.profile h3{
+font-size:20px;
+margin-top;15px;
+color: #007bff;
+
+}
+#testimonials span{
+font-size:12px;
+color:#333;
+}
+blackquote{
+font-size:26px;
+line-height:30px
+}
+blackquote::before
+{
+content:'/93';
+font-size:50px;
+color:#007bff;
+position: relative;
+line-height:20px;
+bottom:-15px;
+right:5px;
+}
+blackquote::after
+{
+content:'/94';
+font-size:50px;
+color:#007bff;
+position: relative;
+line-height:10px;
+bottom:-15px;
+left:5px;
+}
+.profile:hover
+{
+box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+cursor: pointer;
+transition: 0.5s;
+
+
+}
+
+/*--------services----*/
+#services
+{
+	background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.8));
+	background-size: cover;
+	background-position:center;
+	color:#efefef;
+	background-attachment: fixed;
+	padding-top : 50px;
+	padding-bottom: 50px;
+
+}
+#services h2
+{
+	color: #efefef;
+	padding-bottom: 10px;
+}
+#services h3
+{
+	color: #efefef;
+	font-size:15;
+	padding-top : 5px;
+	padding-bottom: 5px;
+	
+}
+#services after
+{
+	content: '';
+	background-color:#efefef;
+	display: block;
+	height: 3px;
+	width:170px;
+	margin:20px auto 5px;
+}
+#services
+{
+	overflow-x:hidden;
+}
+. services
+{
+	margin-top:40px;
+}
+#services img {
+  border-radius: 8px;
+}
+
+	/*--------languages-------*/
+	#languages
+{
+	background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.8));
+	background-size: cover;
+	background-position:center;
+	color:#efefef;
+	background-attachment: fixed;
+	padding-top : 30px;
+	padding-bottom: 50px;
+
+}
+
+#languages h3
+{
+	color: #ffffff;
+	font-size:17;
+	padding-top : 5px;
+	padding-bottom: 5px;
+	
+}
+
+#languages a
+{
+	color:#ffffff;
+}
+	#training1
+	{
+		padding-bottom:50px;
+	}
+	#training
+	{
+	overflow-x:hidden;
+	}
+	
+	#career
+	{
+		padding-top:5`px;
+	}
+	
+	
+	
+	.address
+	{
+		padding-left:350px;
+		padding-bottom:50px;
+	}
+	
+	.con
+	{
+		padding-top:5px;
+	}
+	.con1
+	{
+		padding-right:300px;
+	}
+	
+	
+	#contact h2
+	{
+		padding-right:100px;
+	}
+	.contact1
+	{
+		padding-bottom:100px;
+	}
+	.media
+	{
+		padding-right:150px;
+		padding-bottom:10px;
+		.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+/*---get in touch----*/
+#contact{
+	background: #efefef;
+	padding-top:20px;
+	padding-bottom:20px;
+	color: #777;
+	
+	}
+	.contact-form{
+	padding:15px;
+	
+	}
+	.form-control{
+	border-radius:0;
+	border: none;
+	}
+	::placeholder
+	{
+		color:#999;
+	}
+	.follow{
+		background: #fff;
+		padding:10px;
+		margin:15px;
+	}
+	.contact-info .fa{
+	margin:10px;
+	color: #007bff;
+	font-weight:100px;
+	width: 24px !important;
+    height: 24px !important;
+	}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	/*------link---------*/
+	#link
+	{
+	color:#ffffff;
+	}
+	#link h6
+	{
+		color:#00bfff;
+	}
+	
+	#link a
+	{
+		color:#ffffff;
+	}
+	
+	
+.container3
+{
+padding-left:400px;
+}	
+	
+	/* scrollbar*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #002E70; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4094B7; 
+}
